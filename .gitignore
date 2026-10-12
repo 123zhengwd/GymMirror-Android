@@ -1,0 +1,31 @@
+# Android / Gradle local state
+**/.gradle/
+**/.kotlin/
+**/build/
+**/local.properties
+**/.idea/
+**/*.iml
+**/.DS_Store
+
+# Signing keys and credentials
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+secrets.properties
+keystore.properties
+
+# Generated packages and captures
+*.apk
+*.aab
+**/captures/
+**/recordings/
+**/videos/recordings/
+*.hprof
+
+# Other local-only project data
+/nfc-h5/
+/work/
+/outputs/
+/迁移说明.md
